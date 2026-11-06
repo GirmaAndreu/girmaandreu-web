@@ -1,0 +1,142 @@
+{
+  "portada": {
+    "ceja": "Diseño web + SEO local",
+    "titular": ["Hola,", "soy *Girma.*"],
+    "linea": "Hago webs para negocios locales y me encargo de que te encuentren en Google.",
+    "secundario": "Ver precios",
+    "confianza": ["Publicidad y Marketing · ESERP", "Ex departamento SEO · Metacom", "Toda España"],
+    "etiquetas": ["SEO local", "Google Maps", "Webs a medida"],
+    "pie_foto": "Girma Andreu · Barcelona"
+  },
+
+  "sobre_mi": {
+    "corto": "Sobre mí",
+    "titulo": "Detrás de tu web hay una persona que te responde.",
+    "texto": [
+      "Soy Girma Andreu. Estudio Publicidad, Marketing y Relaciones Públicas en ESERP y trabajé en el departamento SEO de Metacom Inbound Marketing.",
+      "Ahora hago webs para negocios locales: rápidas, claras y pensadas para que Google las entienda. Hablas conmigo directamente, sin intermediarios."
+    ],
+    "ficha": [
+      { "dato": "Nombre", "valor": "Girma Andreu" },
+      { "dato": "Email", "valor": "girma.andreu@gmail.com" },
+      { "dato": "Zona", "valor": "Barcelona · remoto con toda España" },
+      { "dato": "Estado", "valor": "Acepto nuevos proyectos" }
+    ],
+    "credenciales": [
+      { "num": "01", "titulo": "Formación", "texto": "Publicidad, Marketing y Relaciones Públicas en ESERP Business & Law School." },
+      { "num": "02", "titulo": "Experiencia", "texto": "Departamento SEO de Metacom Inbound Marketing." },
+      { "num": "03", "titulo": "Lo que hago hoy", "texto": "Webs y SEO local para negocios que aún no aparecen en Google." }
+    ],
+    "testimonio": "[TESTIMONIO REAL DE CLIENTE]"
+  },
+
+  "servicios": {
+    "corto": "Servicios",
+    "titulo": "Tres formas de que te encuentren.",
+    "lista": [
+      {
+        "num": "01",
+        "nombre": "Diseño web",
+        "frase": "Tu web a medida, rápida y pensada para el móvil.",
+        "incluye": ["Diseño propio, no una plantilla", "Adaptada a móvil", "Botón de WhatsApp"],
+        "mensaje": "Hola Girma, quiero información sobre el diseño web."
+      },
+      {
+        "num": "02",
+        "nombre": "SEO local",
+        "frase": "Para aparecer cuando alguien de tu zona busca lo que haces.",
+        "incluye": ["Tu ficha de Google optimizada", "Una página por servicio", "Datos para que Google te entienda"],
+        "mensaje": "Hola Girma, quiero mejorar cómo aparece mi negocio en Google."
+      },
+      {
+        "num": "03",
+        "nombre": "Mantenimiento",
+        "frase": "Tú me escribes y yo lo cambio. Cada mes, tu web un poco mejor.",
+        "incluye": ["Cambios de textos, fotos y horarios", "1 artículo de blog al mes", "Informe mensual de Google"],
+        "mensaje": "Hola Girma, me interesa el mantenimiento mensual."
+      }
+    ]
+  },
+
+  "incluye": {
+    "corto": "Qué incluye",
+    "titulo": "Todo lo que lleva tu web, sin letra pequeña.",
+    "lista": [
+      { "titulo": "Hosting incluido", "texto": "Tu web online sin pagar alojamiento aparte." },
+      { "titulo": "Candado de seguridad", "texto": "Conexión segura (https), la que Google exige." },
+      { "titulo": "Perfecta en el móvil", "texto": "Diseñada primero para la pantalla del móvil." },
+      { "titulo": "Botón de WhatsApp", "texto": "Tus clientes te escriben con un toque." },
+      { "titulo": "SEO técnico", "texto": "Títulos, descripciones y mapa del sitio listos." },
+      { "titulo": "Google Search Console", "texto": "Conectada para ver cómo te encuentran." },
+      { "titulo": "Carga rápida", "texto": "Sin plugins ni peso extra: abre al instante." },
+      { "titulo": "Tu dominio", "texto": "Conecto tu dominio propio (se paga aparte)." }
+    ]
+  },
+
+  "proceso": {
+    "corto": "Cómo trabajo",
+    "titulo": "De tu mensaje a tu web publicada en cuatro pasos.",
+    "pasos": [
+      { "titulo": "Me escribes", "texto": "Cuéntame tu negocio por WhatsApp. Te respondo en menos de 24 horas." },
+      { "titulo": "Te enseño una propuesta", "texto": "Una primera versión de tu web que ajustamos juntos." },
+      { "titulo": "Publicamos", "texto": "Con tu dominio, Google Search Console y tu ficha de Google listos." },
+      { "titulo": "Seguimos", "texto": "Con el mantenimiento, cada mes reviso cómo vas en Google y lo mejoro." }
+    ]
+  },
+
+  "precios": {
+    "corto": "Precios",
+    "titulo": "Precios claros desde el primer mensaje.",
+    "nota": "Precios sin IVA. El dominio se paga aparte (unos 10-15 € al año).",
+    "planes": [
+      {
+        "nombre": "Web Esencial",
+        "precio": "390 €",
+        "periodo": "pago único",
+        "destacado": false,
+        "incluye": ["Web de una página", "Diseño adaptado a móvil", "SEO básico configurado", "Botón de WhatsApp", "Hosting incluido"]
+      },
+      {
+        "nombre": "Web + SEO Local",
+        "precio": "690 €",
+        "periodo": "pago único",
+        "destacado": true,
+        "etiqueta": "La que más recomiendo",
+        "incluye": ["Web de hasta 5 páginas", "Una página por servicio", "SEO local completo", "Ficha de Google optimizada", "Datos estructurados para Google", "Hosting incluido"]
+      },
+      {
+        "nombre": "Mantenimiento",
+        "precio": "29 €",
+        "periodo": "al mes",
+        "destacado": false,
+        "incluye": ["Cambios ilimitados de contenido", "1 artículo de blog al mes", "Informe mensual de Google", "Mejoras SEO continuas", "Respuesta en 24 h"]
+      }
+    ]
+  },
+
+  "blog": {
+    "corto": "Blog",
+    "titulo": "Ideas para que tu negocio crezca en Google.",
+    "boton": "Ver todos los artículos"
+  },
+
+  "faq": {
+    "corto": "Preguntas",
+    "titulo": "Lo que suelen preguntarme.",
+    "mensaje": "Hola Girma, tengo una duda sobre tus webs.",
+    "lista": [
+      { "pregunta": "¿Cuánto tarda en estar lista mi web?", "respuesta": "Depende del tamaño de la web. Antes de empezar te doy una fecha de entrega, que cuenta desde que tengo tus textos y fotos." },
+      { "pregunta": "¿Tengo que pagar hosting aparte?", "respuesta": "No. El hosting está incluido. Solo pagas el dominio, unos 10-15 € al año." },
+      { "pregunta": "¿Puedo pedir cambios después?", "respuesta": "Sí. Con el mantenimiento te hago todos los cambios de contenido que necesites. Sin él, cada cambio se presupuesta aparte." },
+      { "pregunta": "¿Me garantizas salir el primero en Google?", "respuesta": "No, y desconfía de quien te lo prometa. Lo que sí hago es una web técnicamente bien hecha para Google y un trabajo de SEO constante para que subas." },
+      { "pregunta": "¿Trabajas solo en Barcelona?", "respuesta": "No. Trabajo en remoto con negocios de toda España." }
+    ]
+  },
+
+  "contacto": {
+    "corto": "Contacto",
+    "titulo": "Hablemos de tu web.",
+    "texto": "Escríbeme por WhatsApp y cuéntame tu negocio. Te digo qué haría y cuánto costaría, sin compromiso.",
+    "quita_miedo": "Te respondo en menos de 24 horas."
+  }
+}

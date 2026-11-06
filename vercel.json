@@ -1,0 +1,6 @@
+{
+  "buildCommand": "node construir.js",
+  "outputDirectory": "publico",
+  "cleanUrls": true,
+  "trailingSlash": true
+}

@@ -1,0 +1,41 @@
+{
+  "nombre": "Girma Andreu",
+  "profesion": "Diseño web y SEO local",
+  "url": "https://girma-andreu.vercel.app",
+  "idioma": "es",
+  "zona": "Barcelona",
+  "zona_larga": "Barcelona · trabajo en remoto con toda España",
+  "frase_marca": "Que te encuentren.",
+
+  "seo": {
+    "titulo": "Girma Andreu | Diseño web y SEO local para negocios en Barcelona",
+    "descripcion": "Soy Girma Andreu. Hago webs rápidas para negocios locales y las posiciono en Google. Diseño web, SEO local y mantenimiento mensual en Barcelona y toda España."
+  },
+
+  "colores": {
+    "brand": "#DEFC31",
+    "bg": "#0A0A0B",
+    "surface": "#141416",
+    "surface_2": "#1C1C1F",
+    "text": "#F4F4F1",
+    "muted": "#A3A3AB"
+  },
+
+  "contacto": {
+    "whatsapp": "34683104004",
+    "whatsapp_visible": "+34 683 104 004",
+    "email": "girma.andreu@gmail.com",
+    "instagram": "",
+    "linkedin": ""
+  },
+
+  "boton": "Quiero mi web",
+  "mensaje_principal": "Hola Girma, quiero una web para mi negocio.",
+
+  "menu": [
+    { "texto": "Sobre mí", "enlace": "#sobre-mi" },
+    { "texto": "Servicios", "enlace": "#servicios" },
+    { "texto": "Precios", "enlace": "#precios" },
+    { "texto": "Blog", "enlace": "blog/" }
+  ]
+}
