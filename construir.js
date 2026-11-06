@@ -92,6 +92,7 @@ function pagina({ titulo, descripcion, ruta, R, cuerpo, schema = [], tipo = 'web
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="${sitio.colores.bg}">
+${sitio.google_verificacion ? `<meta name="google-site-verification" content="${esc(sitio.google_verificacion)}">` : ''}
 <link rel="icon" href="${R}img/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="${R}img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -344,6 +345,8 @@ fs.mkdirSync(path.join(SALIDA, 'js'), { recursive: true });
 fs.copyFileSync(path.join(RAIZ, 'diseno', 'estilos.css'), path.join(SALIDA, 'css', 'estilos.css'));
 fs.copyFileSync(path.join(RAIZ, 'diseno', 'main.js'), path.join(SALIDA, 'js', 'main.js'));
 fs.cpSync(path.join(RAIZ, 'img'), path.join(SALIDA, 'img'), { recursive: true });
+// Archivos que deben ir en la raíz de la web (verificación de Google, etc.)
+if (fs.existsSync(path.join(RAIZ, 'raiz'))) fs.cpSync(path.join(RAIZ, 'raiz'), SALIDA, { recursive: true });
 
 const hoy = new Date().toISOString().slice(0, 10);
 const urls = [{ loc: '/', fecha: hoy }, { loc: '/blog/', fecha: posts[0] ? posts[0].fecha : hoy }, ...posts.map((x) => ({ loc: `/blog/${x.slug}/`, fecha: x.fecha }))];
